@@ -308,6 +308,7 @@ The `.env` file is where you securely store your **Rumble login credentials** so
 ```env
 RUMBLE_EMAIL=your-email@example.com
 RUMBLE_PASSWORD=yourrumblepassword
+YT_SECRET=client_secret.json
 ```
 
 3. Click **File > Save As**
