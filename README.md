@@ -340,6 +340,7 @@ nano .env
 ```env
 RUMBLE_EMAIL=your-email@example.com
 RUMBLE_PASSWORD=yourrumblepassword
+YT_SECRET=client_secret.json
 ```
 
 5. Press `CTRL + O` to save, then `ENTER`  
