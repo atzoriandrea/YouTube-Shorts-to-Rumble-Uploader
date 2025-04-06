@@ -294,6 +294,65 @@ Processing Cat Does Backflip #2
 - Double-check your credentials in the `.env` file
 - Solve any CAPTCHA manually if it pops up the first time
 
+## 🔐 Creating the `.env` File (Windows & Linux)
+
+The `.env` file is where you securely store your **Rumble login credentials** so the script can log in automatically.
+
+---
+
+### 🪟 Windows
+
+1. Open **Notepad**
+2. Paste the following lines (replace with your actual credentials):
+
+```env
+RUMBLE_EMAIL=your-email@example.com
+RUMBLE_PASSWORD=yourrumblepassword
+```
+
+3. Click **File > Save As**
+4. In the **"Save as type"** dropdown, select **"All Files"**
+5. Save the file as:
+
+```
+.env
+```
+
+in the **same folder** as `main.py`.
+
+✅ Done!
+
+---
+
+### 🐧 Linux / macOS
+
+1. Open your terminal
+2. Navigate to the folder where `main.py` is located
+3. Run:
+
+```bash
+nano .env
+```
+
+4. Paste the following (replace with your actual credentials):
+
+```env
+RUMBLE_EMAIL=your-email@example.com
+RUMBLE_PASSWORD=yourrumblepassword
+```
+
+5. Press `CTRL + O` to save, then `ENTER`  
+6. Press `CTRL + X` to exit
+
+✅ Your `.env` file is now ready!
+
+---
+
+⚠️ **Important:**  
+- The `.env` file should be kept **private** and never shared.
+- Do **not** upload it to GitHub. Add `.env` to your `.gitignore` file.
+
+
 ---
 
 ## 📁 Example Project Structure
